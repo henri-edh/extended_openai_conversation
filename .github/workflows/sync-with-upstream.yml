@@ -15,7 +15,7 @@ jobs:
 
     - name: Fetch upstream changes
       run: |
-        git remote add upstream https://github.com/henri-edh/extended_openai_conversation.git
+        git remote add upstream https://github.com/jekalmin/extended_openai_conversation.git
         git fetch upstream
 
     - name: Merge upstream changes
